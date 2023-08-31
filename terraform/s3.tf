@@ -1,7 +1,7 @@
 # RESOURCE: S3 BUCKET (INFRA)
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = tf-terraform-hello-world-state-davi
+  bucket = var.bucket_name
 }
 
 resource "aws_s3_bucket_versioning" "bucket-versioning" {
