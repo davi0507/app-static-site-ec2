@@ -1,7 +1,7 @@
 # RESOURCE: S3 BUCKET (INFRA)
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = tf-staticsite-s3-v1
+  bucket = tf-terraform-hello-world-state-davi
 }
 
 resource "aws_s3_bucket_versioning" "bucket-versioning" {
