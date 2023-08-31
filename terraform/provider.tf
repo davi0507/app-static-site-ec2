@@ -11,8 +11,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "tf-staticsite-s3-state-v1"
-    key            = "terraform.tfstate"
+    bucket         = "tf-terraform-hello-world-state-davi"
+    key            = "LockID"
     dynamodb_table = "tf-staticsite-s3-state-v1"
     region         = "us-east-1"
   }
