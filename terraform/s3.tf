@@ -1,7 +1,7 @@
 # RESOURCE: S3 BUCKET (INFRA)
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = var.bucket_name
+  bucket = tf-staticsite-s3-v1
 }
 
 resource "aws_s3_bucket_versioning" "bucket-versioning" {
